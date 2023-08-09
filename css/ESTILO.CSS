@@ -1,0 +1,93 @@
+*{margin: 0; 
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+background-image: url(/multimedia/Fondo\ Pagina.png) ; background-size: cover;
+}
+/*TODO LO DEL MENU*/
+.menu{background-color: #5588ba;text-align: center; list-style: none; width: 98%; margin: 10px auto; border-radius: 5%;padding-top: 50px;}
+.menu li{display: inline-block;text-align: center;}
+.menu li a{padding: 20px; margin: 10px; color: #efefef; text-decoration: none; display: inline-block;}
+.menu li a:hover {color: #5588ba; background-color: #efefef; border-radius: 50%;
+}
+.imgmenu1{background-color: #efefef; width: 150px; height: auto; position: fixed; top: 50px; left: 50px; border-radius: 20%;}
+.imgmenu2{background-color: #efefef; width: 80px; height: auto; position: fixed; top: 50px; right: 50px; border-radius: 20%;}
+.titulopagina{position: fixed;}
+
+.mnburger{overflow: hidden;}
+.mnburger li{ display: inline-block; text-align: center; padding: 10px 15px; text-decoration: none;}
+@media screen and (max-width: 600px) { .mnburger li{ display: block; width: 100%;}}
+
+
+/*TODO EN PARRAFOS*/
+.parrafogenerales
+{font-style:oblique; font-family: 'Comic Neue', cursive; text-align:justify; color: #1b4778 ; font-size: 30px; padding: 50px;  width: 600px;
+    line-height: 2.5rem; height: 300px; overflow: auto;
+    margin: 10px;
+}
+a{ text-align: justify;
+    text-decoration: none;
+    font-size: 1.5rem;}
+/*PAGINA INDEX*/
+img{
+    margin: 10px 20px 10px 20px;
+    height: 300px; width: 500px;
+}
+.imgfront {width: auto;}
+.pareja1{display: inline-block; }
+.espacio{padding-top: 50px; padding-bottom: 20px;}
+
+@media only screen and (max-width: 990px) {
+    .movilindex{
+        background-image: url(/multimedia/fondomovil2.png);    } .parrafogenerales
+        {font-style:oblique; font-family: 'Comic Neue', cursive; text-align:justify; color: #5588ba ; font-size: 30px; padding: 50px;  width: 600px;
+            line-height: 2.5rem; height: 300px; overflow: auto;
+            margin: 10px;
+        }
+    }
+    
+
+
+/*Pagin Tienda*/
+.poranimal{width: auto; height: auto;
+display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-around; align-items: center;}
+.imgtienda{width: 200px; height: 200px; border: solid 5px; border-color: #5588ba; padding: 5px;}
+
+.mnfirt{background-color: aqua; display: flex; width: auto;}
+
+
+.categoria{list-style-type: none; text-align: center; padding-top: 1rem; font-size: 2rem; font-family: 'Kite One', sans-serif;}
+.bycat{background-color: beige; height: auto; margin: 20px; }
+
+.navby{ width: auto; height: auto; background-color: black; display: flex; flex-direction: row; flex-wrap:wrap; justify-content: space-around; align-items: center;}
+.imgby{width: 200px; height: auto; opacity: .8;}
+.imgby:hover{opacity: 1;}
+
+/*paginaOfertasyObsequios*/
+.gridofyob{display: grid; grid-template-columns: 3fr 3fr 3fr 3fr; grid-template-rows: 2fr 6fr 2fr 2fr 6fr 2fr 6fr; background-color: aquamarine; width: 90%; height: 80vh; font-size: 3rem; text-align: center; margin: 20px auto; gap: 10px ;grid-template-areas: "it1it2it3it4 it1it2it3it4 it1it2it3it4 it1it2it3it4" "it5it6 it5it6 it7it8 it7it8" "it9it10it11it12 it9it10it11it12 it9it10it11it12 it9it10it11it12" "it13it14it15it16 it13it14it15it16 it13it14it15it16 it13it14it15it16" "it17it18 it17it18 it19it20 it19it20" "it21it22it23it24 it21it22it23it24 it21it22it23it24 it21it22it23it24" "it25 it26 it27 it28";}
+
+.ofyobtitulo1{grid-area: it1it2it3it4 ;}
+.ofyobimg1{grid-area: it5it6; width: auto; height: auto;}
+.ofyobtext1{grid-area: it7it8;}
+.ofyobtitulo2{grid-area: it9it10it11it12;}
+.ofyobsubtitulo2{grid-area: it13it14it15it16;}
+.ofyobimg2{grid-area: it17it18; text-align: center;}
+.ofyobimg3{grid-area: it19it20;text-align: center;}
+.ofyobtitulo3{grid-area: it21it22it23it24;}
+
+.imgoyo1{width: 300px; height: auto;}
+.imgoyo2{width: 200px; height: auto;}
+.imgoyo3{width: 200px; height: auto;}
+.imgoyo{width: 150px; height: auto;}
+/*link para subir y bajar el navegador*/
+.arriba{color: #5588ba; text-align:right; padding: 20PX; font-size: 150%; font-family: 'Fredoka', sans-serif;
+}
+.abajo{color: #5588ba; text-align:right; padding: 20PX; font-size: 150%; font-family: 'Fredoka', sans-serif;
+}
+.imgrrss{width: 200px; height: auto;}
+.chat{width: 100px; height: 100px; position: fixed; bottom: 50px; 
+right: 100px;
+}
+footer{background-color: #5588ba; color: #efefef;}
