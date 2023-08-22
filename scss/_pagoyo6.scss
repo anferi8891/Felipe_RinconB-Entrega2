@@ -1,0 +1,82 @@
+/*paginaOfertasyObsequios*/
+
+.gridofyob{display: grid; 
+    grid-template-columns: 3fr 3fr 3fr 3fr; 
+    grid-template-rows: 2fr 6fr 2fr 2fr 6fr 2fr 6fr; 
+    width: 90%; 
+    height: 80vh; 
+    font-size: 3rem; 
+    text-align: center; 
+    margin: 20px auto; 
+    gap: 10px ;
+    grid-template-areas: "it1it2it3it4 it1it2it3it4 it1it2it3it4 it1it2it3it4" "it5it6 it5it6 it7it8 it7it8" "it9it10it11it12 it9it10it11it12 it9it10it11it12 it9it10it11it12" "it13it14it15it16 it13it14it15it16 it13it14it15it16 it13it14it15it16" "it17it18 it17it18 it19it20 it19it20" "it21it22it23it24 it21it22it23it24 it21it22it23it24 it21it22it23it24" "it25 it26 it27 it28"; 
+    height: auto; 
+    align-items: center}
+
+.ofyobtitulo1{grid-area: it1it2it3it4 ;
+    font-family: 'Kite One', sans-serif;
+    font-style:oblique;
+    font-size: 50px;
+    margin: 50px 0;
+    justify-content: space-around;
+    align-content: center;
+}
+.ofyobtext1{grid-area: it7it8;
+    font-style:oblique; 
+    font-family: 'Comic Neue', cursive; 
+    text-align:justify; 
+    color: #1b4778 ; 
+    font-size: 30px; 
+    border: 1px solid; 
+    width: auto;
+    line-height: 2.5rem; 
+    height: 500px; 
+    overflow: auto;
+    margin: 0 20px;
+}
+.ofyobimg1{grid-area: it5it6; 
+    align-items: center; 
+    align-content: center;}
+
+.imgoyo1{height: 100%; 
+    width: 100%;}
+
+.ofyobtitulo2{grid-area: it9it10it11it12;
+    font-family: 'Kite One', sans-serif;
+    font-style:oblique;
+    font-size: 50px;
+    margin: 50px 0;
+    justify-content: space-around;
+    align-content: center;
+}
+.ofyobsubtitulo2{grid-area: it13it14it15it16;
+    font-family: 'Kite One', sans-serif;
+    font-style:oblique;
+    font-size: 40px;
+    margin: 20px 0;
+    justify-content: space-around;
+    align-content: center;    
+}
+
+.ofyobimg2{grid-area: it17it18; 
+    justify-content: space-around;
+    align-items: center;
+}
+.imgoyo2{width: auto; height: 300px;}
+
+.ofyobimg3{grid-area: it19it20;
+    text-align: center;}
+
+.imgoyo3{width: auto; height: 300px;}
+
+.ofyobtitulo3{grid-area: it21it22it23it24;
+    font-family: 'Kite One', sans-serif;
+    font-style:oblique;
+    font-size: 50px;
+    margin: 50px 0;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.imgoyo{width: 100%; 
+    height: auto;}

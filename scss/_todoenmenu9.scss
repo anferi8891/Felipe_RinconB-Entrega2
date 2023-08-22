@@ -1,0 +1,63 @@
+/*TODO LO DEL MENU*/
+
+.barnav{
+    background-color: #5588ba; 
+    height: 100px; 
+    width: 100%; 
+    .enlace{
+        position: absolute; 
+        padding: 20px 50px; 
+        .imgmenu1{
+            background-color: #efefef; 
+            width: fit-content; 
+            height: 60px; 
+            position: fixed; 
+            left: 80px; 
+            border-radius: 20% ;
+        }  
+    }
+    .imgmenu2{
+        background-color: #efefef; 
+        width: fit-content; 
+        height: 60PX; 
+        position: fixed; 
+        top: 20px; 
+        right: 30px; 
+        border-radius: 20%;
+    }
+    #check{display:none;}
+    .chkboton{
+        font-size: 30px; 
+        float: left; 
+        line-height: 100px; 
+        margin-left: 30px; 
+        cursor: pointer; 
+        display: none ;
+    }
+    .menu { 
+        float: left; 
+        margin-left: 200px;
+        display: flex;
+        flex-direction: row;
+        li{
+            display: inline-block; 
+            line-height: 100px; 
+            margin: 0 10px;
+            a{
+                color: #efefef; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 30px;
+                font-style:oblique; 
+                font-family: 'Fredoka', sans-serif; 
+                &:hover, &.active {
+                    color: #5588ba; 
+                    background-color: #efefef;
+                    border-radius: 20%; 
+                    height: 100PX; 
+                    padding: 0 15px;
+                }
+            }
+        }
+    }
+}

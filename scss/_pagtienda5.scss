@@ -1,0 +1,67 @@
+/*Pagina Tienda*/
+
+.poranimal{width: auto; 
+    height: auto;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap:wrap; 
+    justify-content: space-around; 
+    align-items: center; 
+    align-content: center;
+}
+
+.imgtienda{width: 200px; 
+    height: 200px; 
+    border: solid 5px; 
+    border-color: #5588ba; 
+    padding: 5px;
+}
+
+.mnfirt{display: flex; 
+    width: 100%; 
+    border: 5px solid; 
+    justify-content:center; 
+    align-items: center; 
+    align-content: center; 
+    margin-top:  20px;
+    justify-content: space-around;
+    border-color: yellow;
+    border: solid 2px;
+    margin-bottom: 100px; }
+
+.maintienda{justify-items: center;}
+
+
+.categoria{
+    list-style-type: none; 
+    text-align: center; 
+    padding-top: 1rem; 
+    font-size: 3rem; 
+    font-family: 'Kite One', sans-serif;}
+
+.bycat{ height:400px; 
+    margin: 20px; 
+    width: 70vh; }
+
+.bytop{ height: auto; 
+    width: 100%; 
+    display: inline-block; 
+    align-content: center; 
+    margin-top: 5PX;
+}
+
+.navby{ width: auto; 
+    height: auto; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap:wrap; 
+    justify-content: space-around; 
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.imgby{width: 300px; 
+    height: auto; 
+    opacity: .8;}
+
+.imgby:hover{opacity: 1;}

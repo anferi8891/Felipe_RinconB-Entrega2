@@ -1,0 +1,29 @@
+/*TODO EN PARRAFOS y Titulos*/
+
+.mainpblog{align-items: center; justify-content: center;}
+
+.parrafogenerales {font-style:oblique; 
+    font-family: 'Comic Neue', cursive; 
+    text-align:justify; 
+    color: #1b4778 ; 
+    font-size: 30px; 
+    border: 10px solid; 
+    width: 50%;
+    line-height: 2.5rem; 
+    height: 300px; 
+    overflow: auto;
+    margin: 10px;
+}
+
+.tittlesecundari { font-family: 'Kite One', sans-serif;
+    font-style:oblique;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.tittleprincipal { font-family: 'Kite One', sans-serif;
+    font-style:oblique;
+    font-size: 35px;
+    margin: 10px 0;
+    text-align: center;
+}
