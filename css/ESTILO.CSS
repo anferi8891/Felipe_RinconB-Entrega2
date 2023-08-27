@@ -107,14 +107,18 @@ body {
   border: solid 2px; }
 
 .img1parr2pg1 {
-  width: auto;
-  height: 400px;
+  width: 350px;
+  height: auto;
   margin: 10px 0; }
 
 .img2parr2pg1 {
-  width: auto;
-  height: 400px;
+  width: 500px;
+  height: auto;
   margin: 10px 0; }
+
+.mainp1 {
+  max-width: 1440px;
+  width: 100%; }
 
 /*Pagina Tienda*/
 .poranimal {
@@ -136,6 +140,7 @@ body {
 
 .mnfirt {
   display: flex;
+  max-width: 1440px;
   width: 100%;
   border: 5px solid;
   justify-content: center;
@@ -180,7 +185,7 @@ body {
   margin-bottom: 5px; }
 
 .imgby {
-  width: 300px;
+  width: 200px;
   height: auto;
   opacity: .8; }
 
@@ -192,7 +197,8 @@ body {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
   grid-template-rows: 2fr 6fr 2fr 2fr 6fr 2fr 6fr;
-  width: 90%;
+  max-width: 1440px;
+  width: 100%;
   height: 80vh;
   font-size: 3rem;
   text-align: center;
@@ -297,7 +303,9 @@ body {
   border: 1px solid;
   border-color: aqua;
   padding: 50px;
-  margin: 10px; }
+  margin: 10px;
+  max-width: 1440px;
+  width: 100%; }
 
 .espacio11 {
   display: flex;
@@ -334,6 +342,13 @@ body {
   width: auto;
   height: 400px;
   margin: 10px 20PX; }
+
+.mainnosotros {
+  max-width: 1440px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center; }
 
 /*link para subir y bajar el navegador*/
 .arriba {

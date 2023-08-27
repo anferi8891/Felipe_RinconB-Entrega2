@@ -18,7 +18,8 @@
 }
 
 .mnfirt{display: flex; 
-    width: 100%; 
+    max-width: 1440px;
+    width: 100%;     
     border: 5px solid; 
     justify-content:center; 
     align-items: center; 
@@ -60,7 +61,7 @@
     margin-bottom: 5px;
 }
 
-.imgby{width: 300px; 
+.imgby{width: 200px; 
     height: auto; 
     opacity: .8;}
 

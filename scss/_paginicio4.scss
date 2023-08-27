@@ -64,11 +64,15 @@
     border-color: black;
     border: solid 2px;
 }
-.img1parr2pg1{ 
-    width: auto; 
-    height: 400px; margin: 10px 0;
-}
-.img2parr2pg1{
-    width: auto; 
-    height: 400px; margin: 10px 0;
-}
+.img1parr2pg1 {
+    width: 350px;
+    height: auto;
+    margin: 10px 0; }
+  
+  .img2parr2pg1 {
+    width: 500px;
+    height: auto;
+    margin: 10px 0; }
+
+.mainp1{ max-width: 1440px;
+    width: 100%;}
