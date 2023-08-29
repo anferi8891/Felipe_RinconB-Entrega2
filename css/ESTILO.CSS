@@ -557,7 +557,17 @@ footer {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.1fr 0.1fr 0.2fr 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-areas: "it1it2it3it4 it1it2it3it4 it1it2it3it4 it1it2it3it4"  "it5it6 it5it6 it5it6 it5it6" "it7it8 it7it8 it7it8 it7it8" "it9it10it11it12 it9it10it11it12 it9it10it11it12 it9it10it11it12"  "it13it14it15it16 it13it14it15it16 it13it14it15it16 it13it14it15it16"  "it17it18 it17it18 it19it20 it19it20"  "it21it22it23it24 it21it22it23it24 it21it22it23it24 it21it22it23it24"  "it29it30it31it32 it29it30it31it32 it29it30it31it32 it29it30it31it32"  "it33it34it35it36 it33it34it35it36 it33it34it35it36 it33it34it35it36"  "it37it38it39it40 it37it38it39it40 it37it38it39it40 it37it38it39it40"  "it41it42it43it44 it41it42it43it44 it41it42it43it44 it41it42it43it44"; }
+    grid-template-areas: "it1it2it3it4 it1it2it3it4 it1it2it3it4 it1it2it3it4" 
+ "it5it6 it5it6 it5it6 it5it6"
+ "it7it8 it7it8 it7it8 it7it8"
+ "it9it10it11it12 it9it10it11it12 it9it10it11it12 it9it10it11it12" 
+ "it13it14it15it16 it13it14it15it16 it13it14it15it16 it13it14it15it16" 
+ "it17it18 it17it18 it19it20 it19it20" 
+ "it21it22it23it24 it21it22it23it24 it21it22it23it24 it21it22it23it24" 
+ "it29it30it31it32 it29it30it31it32 it29it30it31it32 it29it30it31it32" 
+ "it33it34it35it36 it33it34it35it36 it33it34it35it36 it33it34it35it36" 
+ "it37it38it39it40 it37it38it39it40 it37it38it39it40 it37it38it39it40" 
+ "it41it42it43it44 it41it42it43it44 it41it42it43it44 it41it42it43it44"; }
   .ofyob4 {
     grid-area: it41it42it43it44; }
   .ofyob3 {
