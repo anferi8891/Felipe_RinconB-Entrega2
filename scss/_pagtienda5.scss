@@ -1,37 +1,30 @@
 /*Pagina Tienda*/
 
-.poranimal{width: auto; 
-    height: auto;
+.poranimal{
     display: flex; 
     flex-direction: row; 
     flex-wrap:wrap; 
-    justify-content: space-around; 
+    justify-content:center; 
     align-items: center; 
     align-content: center;
 }
 
 .imgtienda{width: 200px; 
     height: 200px; 
-    border: solid 5px; 
-    border-color: #5588ba; 
     padding: 5px;
+    background-color: white;
+    border: 20px solid;
+    border-color: #5588ba;
+    border-radius: 30px;
+    margin: 5px 50px;
 }
 
 .mnfirt{display: flex; 
     max-width: 1440px;
     width: 100%;     
-    border: 5px solid; 
-    justify-content:center; 
-    align-items: center; 
-    align-content: center; 
-    margin-top:  20px;
+    margin: 0 auto;    
     justify-content: space-around;
-    border-color: yellow;
-    border: solid 2px;
-    margin-bottom: 100px; }
-
-.maintienda{justify-items: center;}
-
+}
 
 .categoria{
     list-style-type: none; 
@@ -40,28 +33,28 @@
     font-size: 3rem; 
     font-family: 'Kite One', sans-serif;}
 
-.bycat{ height:400px; 
+.bycat{ height:auto; 
     margin: 20px; 
-    width: 70vh; }
+    width: 750px; 
+    text-align: center;
+    background-color: #efefef;}
 
 .bytop{ height: auto; 
     width: 100%; 
     display: inline-block; 
-    align-content: center; 
-    margin-top: 5PX;
+    
 }
 
-.navby{ width: auto; 
-    height: auto; 
+.navby{ 
     display: flex; 
     flex-direction: row; 
     flex-wrap:wrap; 
     justify-content: space-around; 
     align-items: center;
-    margin-bottom: 5px;
 }
 
-.imgby{width: 200px; 
+.imgby{max-width: 200px;
+    width: 100%; 
     height: auto; 
     opacity: .8;}
 

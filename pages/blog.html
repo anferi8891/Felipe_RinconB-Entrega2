@@ -11,7 +11,12 @@
     <meta name="robots" content="index, all, follow">
     <meta name="category" content="venta de comida y suplementos para mascotas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Fredoka:wght@600&family=Kite+One&display=swap" rel="stylesheet">
+    
     <title>🤝BLOG📸 MyPetPal</title>
     <LINK REL="SHORTCUT ICON" href="../multimedia/Carita LOGO p2.png">
     <link rel="stylesheet" href="../css/ESTILO.CSS">
@@ -20,10 +25,13 @@
 <body>
     <header>
         <nav class="barnav">
-
-            <a href="#" class="enlace">
-                <img src="../multimedia/LogoSinFondo.png" alt="MyPetPal" class="imgmenu1"></a>
-
+            <img src="../multimedia/LogoSinFondo.png" alt="MyPetPal" class="imgmenu1">
+            <img src="../multimedia/Carrito.png" alt="carrito" class="imgmenu2">
+            <div class="Buscador">
+                <input type="text" placeholder="Busca aqui🐾🐾🐾...." class="TEXbuscador">
+                <button class="iconobuscador">
+                    <i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+            </div>
             <input type="checkbox" id="check">
             <label for="check" class="chkboton">
                     <i class="fa-solid fa-bars fa-beat" style="color: #cacaca;"></i>
@@ -35,44 +43,38 @@
                     <li><a class="active" href="blog.html">BLOG</a></li>
                     <li><a href="nosotros.html">NOSOTROS</a></li>
             </UL>  
-            <img src="../multimedia/Carrito.png" alt="carrito" class="imgmenu2">   
         </nav>
 
     </header>
     <main class="mainpblog">
-        <h3 class="arriba">
-            <a href="#pie" class="arriba">Ir Abajo</a>
-        </h3>
-
         <h3 class="tittleprincipal">👩🏻‍⚕️TIPS DE🐟 CUIDADO🏥 A TU 🐈‍⬛MASCOTA🧑🏻‍⚕️</h3>
-
         <section class="espacio1">
-            <P class="parrafopag1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sit neque officia quis placeat aut illo blanditiis impedit numquam, voluptatibus sit enim.</P>
-            <img src="../multimedia/Imgparrafo1.jpg" alt="" class="img1pagblog">
+            <P class="parrafopag1">El cuidado de las mascotas mamíferas es esencial para su bienestar y felicidad. En primer lugar, proporciona una alimentación equilibrada y de alta calidad, ajustada a sus necesidades nutricionales específicas. Además, asegúrate de que tengan acceso constante a agua fresca y limpia. El ejercicio regular es crucial para mantener un peso saludable y estimular su mente, así que juega y da largos paseos. La atención veterinaria regular, incluyendo vacunas y chequeos, es fundamental para prevenir enfermedades. La socialización temprana es vital para su desarrollo, así que expónlas a diversas situaciones y personas desde cachorros. Finalmente, bríndales amor y atención, ya que el afecto es esencial para su felicidad y confianza en ti.</P>
+            <img src="../multimedia/Imgparrafo2.jpg" alt="" class="img1pagblog">
         </section>
 
         <section class="espacio1">
-            <img src="../multimedia/Imgparrafo2.jpg" alt="" class="img2pagblog">
-            <P class="parrafopag1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sit neque officia quis placeat aut illo blanditiis impedit numquam, voluptatibus sit enim.</P>
+            <img src="../multimedia/hamster.jpg" alt="" class="img2pagblog">
+            <P class="parrafopag1">El cuidado de aves y hámsters requiere atención especializada. Para las aves, proporciona una jaula espaciosa y limpia, con perchas adecuadas y juguetes para estimulación. La dieta debe incluir una mezcla de semillas, frutas y verduras frescas. El agua debe cambiarse a diario. Interactúa con ellas y permite que vuelen o se ejerciten fuera de la jaula de forma segura. Para los hámsters, ofrece una jaula con rueda para correr, escondites y material de anidación. Su alimentación se basa en pellets de hámster y vegetales frescos. Ambos necesitan atención veterinaria regular y enriquecimiento ambiental. Proporciona cariño y observa sus necesidades individuales para mantenerlos saludables y felices.</P>
 
         </section>
-        <h3 class="tittleprincipal">👨‍👩‍👧‍👦FAMILIA 🐈‍⬛🐟🐤🐶MyPetPal</h3>
+        <h3 class="tittleprincipal">👨‍👩‍👧‍👦FAMILIA 🐈‍⬛🐟MyPetPal🐤🐶</h3>
         <section class="formfamilia">
-            <form class="forma" action=""></form>
-                <FIeldset>
+            <form action=""></form>
+                <FIeldset class="TEXFORM">
                     <div>
                     <label for="texto">CUENTANOS UN TIP DE TU EXPERIENCIA CON TU MASCOTA</label>
                     <br>
-                    <input type="text"Name="Name">
+                    <input type="text"Name="Name" class="imputtex" >
                     </div>
                     <br>
-                    <input type="submit" value="Enviar Comentario">
-                    <input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar Comentario" class="TEXFORM">
+                    <input type="reset" value="Borrar" class="TEXFORM">
                 </FIeldset>   
         </section>
         <section  class="espacio1">
             <img src="../multimedia/mascota encasa.jpg" alt="" class="img1pagblog">
-            <p  class="parrafopag1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, optio!</p>
+            <p  class="texsection3">¡Compartir tus experiencias de cuidado de mascotas puede ayudar a otros dueños a aprender y mejorar la vida de sus peludos amigos! Deja un comentario y contribuye al bienestar animal.</p>
         </section>
         <nav>
             <h3 class="tittleprincipal">📝NEWLETTER🎁📲</h3>
@@ -132,8 +134,8 @@
                             <input type="text" Year="Year">
                         </div>
                         <br>
-                        <input type="submit" value="Enviar datos">
-                        <input type="reset" value="Borrar datos">
+                        <input type="submit" value="Enviar datos" class="TEXFORM">
+                        <input type="reset" value="Borrar datos" class="TEXFORM">
 
                     </FIeldset>    
             </section>

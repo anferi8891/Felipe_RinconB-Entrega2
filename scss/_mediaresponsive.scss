@@ -5,20 +5,39 @@
         background-size: cover; 
         background-position: center center; 
         height: 100vh; 
+        text-align: center;
         header{
             .barnav{
-                position: absolute;
+                position: relative;
+                                
                 .menu {
                     flex-direction: column;
                     background-color: #5588ba;
-                    width: 50%;
+                    width: 100%;
                     margin-left: -100%;
                     transition: all 0.2s;
                     li{ border-top: #efefef 1px solid;
                     }
                 }
-                .enlace {padding-left: 10px;
-                }
+                .Buscador{
+                    position:absolute; 
+                    left: 80px;
+                    top: 20px;
+                    .TEXbuscador{
+                        font-size: 20PX;
+                        padding: 10px;
+                        border-radius: 20px 0 0 20px;       
+                    } 
+            
+                    .iconobuscador{height: 53px;
+                        width: 50px;
+                        position: absolute;
+                        padding: 5px;
+                        border-radius: 0 20px 20px 0;
+                    }
+
+
+                }        
                 .chkboton{ display: block;
                 }   
                 #check:checked ~ .menu {
@@ -27,28 +46,34 @@
                 }
             }
         }
+        
     } 
-  
+    
+    .videopag1{
+        width: 280px;
+        height: 160px;
+    }
+
     .parrafo1pag1{
         font-style:oblique; 
         font-family: 'Comic Neue', cursive; 
         text-align:justify; 
         color: #1b4778 ; 
         font-size: 30px; 
-        border: 10px solid; 
         width: 100%;
         line-height: 2.5rem; 
         height: auto; 
         overflow: auto;
-        margin: 10px;}
+        margin-top: 200px;
     
+    }
+         
     .parrafo2pag1{
         font-style:oblique; 
         font-family: 'Comic Neue', cursive; 
         text-align:justify; 
         color: #1b4778 ; 
         font-size: 30px; 
-        border: 10px solid; 
         width: 100%;
         line-height: 2.5rem; 
         height: auto; 
@@ -96,10 +121,8 @@
 
     .espacio3{ display: inline-block;
         flex-direction: column;
-        justify-content: center;
+        margin: 0 auto;
         align-items: center;
-        border-color: black;
-        border: solid 2px;
         width: 100%;}
 
     .videoparr3pg1{ width: 100%; 
@@ -129,7 +152,7 @@
     .imgby{width: 400px; 
         height: auto; 
         opacity: .8;
-    padding: 10px 0;}
+        padding: 10px 0;}
 
     .gridofyob{
         display: grid; 
@@ -156,16 +179,34 @@
         .imgoyo3{width: 100%; height: auto}
         .imgoyo{width: 100%; height: auto}
 
-    .img1pagblog{width: 100%; 
+    .img1pagblog{width: 80%; 
         height: auto; 
         align-items: center; 
         margin: 10px 0;
-        }
-
+    }
+    .img2pagblog{width: 80%; 
+        height: auto; 
+        align-items: center; 
+        margin: 10px 0;
+    }
+   
+    
     .tittleprincipal { font-family: 'Kite One', sans-serif;
-            font-style:oblique;
-            font-size: 35px;
-            margin: 40px 0;
-            text-align: center;}
+        font-style:oblique;
+        font-size: 35px;
+        margin: 40px 0;
+        text-align: center;}
 
+    .imputtex{
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+            }
+
+    .img3pagNOSOTROS{width: 80%; 
+        height: auto; 
+        align-items: center; 
+        margin: 10px 0;
+
+    }     
 }

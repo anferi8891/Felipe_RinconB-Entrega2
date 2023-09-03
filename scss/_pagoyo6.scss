@@ -2,10 +2,10 @@
 
 .gridofyob{display: grid; 
     grid-template-columns: 3fr 3fr 3fr 3fr; 
-    grid-template-rows: 2fr 6fr 2fr 2fr 6fr 2fr 6fr; 
+    // // grid-template-rows: 1fr 3fr 1fr 1fr 3fr 1fr 3fr; 
     max-width: 1440px;
     width: 100%; 
-    height: 80vh; 
+    // height: 80vh; 
     font-size: 3rem; 
     text-align: center; 
     margin: 20px auto; 
@@ -17,22 +17,19 @@
 .ofyobtitulo1{grid-area: it1it2it3it4 ;
     font-family: 'Kite One', sans-serif;
     font-style:oblique;
-    font-size: 50px;
-    margin: 50px 0;
-    justify-content: space-around;
-    align-content: center;
+    font-size: 50px; 
+    background-color: white;   
 }
 .ofyobtext1{grid-area: it7it8;
     font-style:oblique; 
     font-family: 'Comic Neue', cursive; 
     text-align:justify; 
     color: #1b4778 ; 
-    font-size: 30px; 
-    border: 1px solid; 
+    font-size: 35px; 
+    text-align: center;
+    background-color: #efefef;
     width: auto;
     line-height: 2.5rem; 
-    height: 500px; 
-    overflow: auto;
     margin: 0 20px;
 }
 .ofyobimg1{grid-area: it5it6; 
@@ -46,38 +43,47 @@
     font-family: 'Kite One', sans-serif;
     font-style:oblique;
     font-size: 50px;
-    margin: 50px 0;
     justify-content: space-around;
     align-content: center;
+    background-color: white; 
 }
 .ofyobsubtitulo2{grid-area: it13it14it15it16;
     font-family: 'Kite One', sans-serif;
     font-style:oblique;
     font-size: 40px;
-    margin: 20px 0;
     justify-content: space-around;
-    align-content: center;    
+    align-content: center;   
+    background-color: #5588BA;
+    color: #efefef; 
+    border-radius: 30px; 
 }
 
 .ofyobimg2{grid-area: it17it18; 
-    justify-content: space-around;
-    align-items: center;
+    
 }
-.imgoyo2{width: auto; height: 300px;}
+.imgoyo2{
+    max-width: 300px;
+    width: 100%;
+    justify-content: center;}
 
 .ofyobimg3{grid-area: it19it20;
-    text-align: center;}
+   }
 
-.imgoyo3{width: auto; height: 300px;}
+.imgoyo3{max-width: 300px;
+    width: 100%;
+    justify-content: center;}
 
 .ofyobtitulo3{grid-area: it21it22it23it24;
     font-family: 'Kite One', sans-serif;
     font-style:oblique;
-    font-size: 50px;
-    margin: 50px 0;
+    font-size: 40px;
     justify-content: space-around;
     align-content: center;
+    background-color: #5588BA;
+    color: #efefef; 
+    border-radius: 30px;
 }
 
-.imgoyo{width: 100%; 
-    height: auto;}
+.imgoyo{max-width: 300px;
+    width: 100%;
+    justify-content: center;}
